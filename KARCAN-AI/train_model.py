@@ -53,5 +53,5 @@ print("MAE:", mean_absolute_error(y_test, y_pred))
 print("R²:", r2_score(y_test, y_pred))
 
 # Modeli kaydet
-joblib.dump(model, "karcanaı_model.pkl")
+joblib.dump(model, "karcanai_model.pkl")
 print("Model kaydedildi: deneme_model.pkl")

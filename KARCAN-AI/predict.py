@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 # Eğitilen modeli yükle
-model = joblib.load("karcanaı_model.pkl")
+model = joblib.load("karcanai_model.pkl")
 
 def predict_from_input(data: dict):
     df = pd.DataFrame([data])
