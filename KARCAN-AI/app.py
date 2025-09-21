@@ -108,7 +108,7 @@ st.markdown("---")
 # --------------------
 # Mevcut model yükle (manuel tahmin için)
 # --------------------
-model = joblib.load("karcanai_model.pkl")
+model = joblib.load("KARCAN-AI/karcanai_model.pkl")
 
 # --------------------
 # Manuel giriş parametreleri
