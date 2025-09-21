@@ -98,11 +98,11 @@ st.markdown(
 # --------------------
 col1, col2 = st.columns([1,5])
 with col1:
-    st.image("logo.png", use_container_width=True)
+    st.image("KARCAN-AI/logo.png", use_container_width=True)
 with col2:
     st.title("Kesici Takım Çıkış Süresi Tahminleme")
 
-st.image("gif.gif", use_container_width=False)
+st.image("KARCAN-AI/gif.gif", use_container_width=False)
 st.markdown("---")
 
 # --------------------
