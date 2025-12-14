@@ -1,6 +1,6 @@
 streamlit
 pandas
-scikit-learn==1.4.2
+scikit-learn
 openpyxl
 xlsxwriter
-numpy==1.26.4
+numpy
