@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import io
-from sklearn.ensemble import RandomForestRegressor
 import pickle
 import joblib
 
@@ -18,7 +17,7 @@ st.set_page_config(
 # --------------------
 # MODEL YÜKLE
 # --------------------
-model = joblib.load("NEW AI/karcanai_ridge_model.pkl")
+model = joblib.load("karcanai_model.pkl")
 
 # --------------------
 # CSS
