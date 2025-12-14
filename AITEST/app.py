@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import io
 import pickle
-import joblib
 
 # --------------------
 # Sayfa ayarları
@@ -17,7 +16,8 @@ st.set_page_config(
 # --------------------
 # MODEL YÜKLE
 # --------------------
-model = joblib.load("karcanai_model.pkl")
+with open("karcanai_ridge_model.pkl", "rb") as f:
+    model = pickle.load(f)
 
 # --------------------
 # CSS
