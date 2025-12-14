@@ -4,7 +4,7 @@ import pandas as pd
 import io
 import pickle
 import numpy as np
-from sklearn.ensemble import RandomForestRegressor
+
 # --------------------
 # Sayfa ayarları
 # --------------------
