@@ -17,7 +17,7 @@ st.set_page_config(
 # --------------------
 # MODEL YÜKLE
 # --------------------
-with open("karcanai_ridge_model.pkl", "rb") as f:
+with open("AITEST/karcanai_ridge_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # --------------------
