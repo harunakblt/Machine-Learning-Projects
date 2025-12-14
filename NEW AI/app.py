@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
-import joblib
 import io
-from sklearn.ensemble import RandomForestRegressor
+import pickle
 
 # --------------------
 # Sayfa ayarları
@@ -17,7 +16,8 @@ st.set_page_config(
 # --------------------
 # MODEL YÜKLE
 # --------------------
-model = joblib.load("karcanai_ridge_model.pkl")
+with open("karcanai_ridge_model.pkl", "rb") as f:
+    model = pickle.load(f)
 
 # --------------------
 # CSS
