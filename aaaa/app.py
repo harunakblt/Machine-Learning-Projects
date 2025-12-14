@@ -20,7 +20,7 @@ st.set_page_config(
 # MODEL YÜKLE
 # --------------------
 
-model = joblib.load("aaaa/karcanai_model.joblib")
+model = joblib.load("aaaa/karcanai_model.pkl")
 
 
 
