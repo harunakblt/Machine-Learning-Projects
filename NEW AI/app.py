@@ -3,6 +3,7 @@ import pandas as pd
 import io
 from sklearn.ensemble import RandomForestRegressor
 import pickle
+import joblib
 
 # --------------------
 # Sayfa ayarları
@@ -17,8 +18,7 @@ st.set_page_config(
 # --------------------
 # MODEL YÜKLE
 # --------------------
-with open("karcanai_ridge_model.pkl", "rb") as f:
-    model = pickle.load(f)
+model = joblib.load("NEW AI/karcanai_ridge_model.pkl")
 
 # --------------------
 # CSS
