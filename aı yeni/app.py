@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 import io
+from sklearn.ensemble import RandomForestRegressor
 
 # --------------------
 # Sayfa ayarları
